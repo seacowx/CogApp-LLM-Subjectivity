@@ -1,0 +1,19 @@
+consistency: "Provide your rating in the following format: \"Rating: [Score]\". Do not add any explanation or elaboration to your answer.\n\n[Situation]\n{{context}}\n\n[Experiencer's Feeling]\n{{statements}}"
+
+avg_conf: "Provide your rating and a confidence score of your rating in the following format:\n\nRating: [Score]\nConfidence: [Probability]\n\n The confidence score should be in the range of 0 to 1 and should reflect the likelihood that another person will give the same rating. Do not add any explanation or elaboration to your answer.\n\n[Situation]\n{{context}}\n\n[Experiencer's Feeling]\n{{statements}}"
+
+pair_rank: |-
+  Rank the scores based on their likelihood of being chosen based on the given situation and the description of experiencer's feeling. Rank the scores in descending order with respect to their likelihood. Provide the ranking in the following JSON format:
+  
+  {
+    "ranked_ratings": [score1, score2, score3, score4, score5],
+    "likelihoods": [prob1, prob2, prob3, prob4, prob5]
+  }
+  
+  Do not add any explanation or elaboration to your answer.
+  
+  [Situation]
+  {{context}}
+  
+  [Experiencer's Feeling]
+  {{statements}}

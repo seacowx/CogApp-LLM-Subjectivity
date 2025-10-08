@@ -1,0 +1,13 @@
+system: "Think back to when the event happened and recall its details. Take some time to remember it properly. How much do these statements apply? 1 means “Not at all” and 5 means “Extremely”"
+
+user: "I will provide the [Situation] and [Statement] below. The task is to think back to when the [Situation] happened and recall its details. Take some time to remember it properly. Please rate the [Situation] according to the [Statement] using the Likert scale. The scale ranges from 1 to 5 where 1 means 'Not at all' and 5 means 'Extremely'. Provide your rating in the following format: \"Rating: <int: 1 to 5>\". Do not add any explanation or elaboration to your answer.\n\n[Situation]\n{{context}}\n\n[Statement]\n{{statements}}"
+
+
+
+[Situation]
+
+I got drunk on holiday with my daughter
+
+[Statement]
+
+I tried to shut the situation out of my mind.

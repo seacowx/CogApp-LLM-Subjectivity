@@ -1,0 +1,107 @@
+[
+    {
+        "Dnum": 0,
+        "Dname": "suddenness",
+        "Dquestion": "The event was sudden or abrupt."
+    },
+    {
+        "Dnum": 1,
+        "Dname": "familiarity",
+        "Dquestion": "The event was familiar."
+    },
+    {
+        "Dnum": 2,
+        "Dname": "predict_event",
+        "Dquestion": "I could have predicted the occurrence of the event."
+    },
+    {
+        "Dnum": 3,
+        "Dname": "pleasantness",
+        "Dquestion": "The event was pleasant for me."
+    },
+    {
+        "Dnum": 4,
+        "Dname": "unpleasantness",
+        "Dquestion": "The event was unpleasant for me."
+    },
+    {
+        "Dnum": 5,
+        "Dname": "goal_relevance",
+        "Dquestion": "I expected the event to have important consequences for me."
+    },
+    {
+        "Dnum": 6,
+        "Dname": "chance_responsblt",
+        "Dquestion": "The event was caused by chance, special circumstances, or natural forces."
+    },
+    {
+        "Dnum": 7,
+        "Dname": "self_responsblt",
+        "Dquestion": "The event was caused by my own behavior."
+    },
+    {
+        "Dnum": 8,
+        "Dname": "other_responsblt",
+        "Dquestion": "The event was caused by somebody else’s behavior."
+    },
+    {
+        "Dnum": 9,
+        "Dname": "predict_conseq",
+        "Dquestion": "I anticipated the consequences of the event."
+    },
+    {
+        "Dnum": 10,
+        "Dname": "goal_support",
+        "Dquestion": "I expected positive consequences for me."
+    },
+    {
+        "Dnum": 11,
+        "Dname": "urgency",
+        "Dquestion": "The event required an immediate response."
+    },
+    {
+        "Dnum": 12,
+        "Dname": "self_control",
+        "Dquestion": "I was able to inﬂuence what was going on during the event."
+    },
+    {
+        "Dnum": 13,
+        "Dname": "other_control",
+        "Dquestion": "Someone other than me was inﬂuencing what was going on."
+    },
+    {
+        "Dnum": 14,
+        "Dname": "chance_control",
+        "Dquestion": "The situation was the result of outside inﬂuences of which nobody had control."
+    },
+    {
+        "Dnum": 15,
+        "Dname": "accept_conseq",
+        "Dquestion": "I anticipated that I would easily live with the unavoidable consequences of the event."
+    },
+    {
+        "Dnum": 16,
+        "Dname": "standards",
+        "Dquestion": "The event clashed with my standards and ideals."
+    },
+    {
+        "Dnum": 17,
+        "Dname": "social_norms",
+        "Dquestion": "The actions that produced the event violated laws or socially accepted norms."
+    },
+    {
+        "Dnum": 18,
+        "Dname": "attention",
+        "Dquestion": "I had to pay attention to the situation."
+    },
+    {
+        "Dnum": 19,
+        "Dname": "not_consider",
+        "Dquestion": "I tried to shut the situation out of my mind."
+    },
+    {
+        "Dnum": 20,
+        "Dname": "effort",
+        "Dquestion": "The situation required me a great deal of energy to deal with it."
+    }
+]

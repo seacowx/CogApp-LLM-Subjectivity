@@ -3,9 +3,7 @@ Official repository for the paper "Modeling Subjectivity in Cognitive Appraisal 
 
 Thank you for your interest in our project. We will upload the data and code for our experiments soon. Stay tuned!
 
-## Usage
-
-## LLM Baseline 
+## LLM Experiments
 To run the experiments, use the `llm/exp.py` script.
 
 ### Arguments
@@ -21,7 +19,7 @@ To run the experiments, use the `llm/exp.py` script.
 python llm/exp.py --model llama8 --dataset envent --add_demo --add_traits
 ```
 
-## Label Smoothing 
+## Label Smoothing Baseline
 To train the label smoothing baseline model, use the `label_smoothing/train.py` script.
 
 ### Arguments
@@ -37,4 +35,21 @@ To train the label smoothing baseline model, use the `label_smoothing/train.py` 
 
 ```bash
 python label_smoothing/train.py --model microsoft/deberta-v3-large --modal 1 --with_demo --state_dict_path ./models
+```
+
+## Calibration Experiments
+To run the calibration experiments, use the `calibration/run.py` script.
+
+### Arguments
+
+*   `--model`: The name of the model to use. Choose from `llama8` and `qwen7`. (Required)
+*   `--dataset`: The dataset to use. Choose from `envent`, `fge`, and `covidet`. (Default: `envent`)
+*   `--add_demo`: Add demographic information to the prompt. (Only available for the `envent` dataset)
+*   `--add_traits`: Add personality traits to the prompt. (Only available for the `envent` dataset)
+*   `--eval_method`: The evaluation method to use. Choose from `consistency`, `avg-conf`, and `pair-rank`. (Default: `consistency`)
+
+### Example
+
+```bash
+python calibration/run.py --model llama8 --dataset envent --eval_method consistency
 ```

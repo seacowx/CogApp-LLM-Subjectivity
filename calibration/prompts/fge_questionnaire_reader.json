@@ -1,0 +1,306 @@
+[
+    {
+        "Dnum": 0,
+        "Dname": "expectedness",
+        "Dquestion": "Did NAMEVAR expect this situation to occur?",
+        "LowEnd": "very unexpected",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very expected"
+    },
+    {
+        "Dnum": 1,
+        "Dname": "pleasantness",
+        "Dquestion": "Did the situation involve a hedonically positive or pleasant experience for NAMEVAR?",
+        "LowEnd": "very unpleasant",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very pleasant"
+    },
+    {
+        "Dnum": 2,
+        "Dname": "goal_consistency",
+        "Dquestion": "Was the situation consistent or inconsistent with NAMEVAR's goals, needs, or desires?",
+        "LowEnd": "very inconsistent with goals/desires",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very consistent with goals/desires"
+    },
+    {
+        "Dnum": 3,
+        "Dname": "fairness",
+        "Dquestion": "Was this situation fair or unfair for NAMEVAR?",
+        "LowEnd": "very unfair",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very fair"
+    },
+    {
+        "Dnum": 4,
+        "Dname": "agent_cause",
+        "Dquestion": "Was this situation caused by a person or some other external force (e.g. randomness)?",
+        "LowEnd": "external cause (not a person)",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "caused by a person"
+    },
+    {
+        "Dnum": 5,
+        "Dname": "agent_intention",
+        "Dquestion": "Did someone cause this situation intentionally or did it occur by accident?",
+        "LowEnd": "caused accidentally",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "caused intentionally"
+    },
+    {
+        "Dnum": 6,
+        "Dname": "self_cause",
+        "Dquestion": "Was this situation caused by NAMEVAR herself or by someone/something else?",
+        "LowEnd": "caused by other person/thing",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "caused by herself"
+    },
+    {
+        "Dnum": 7,
+        "Dname": "close_others",
+        "Dquestion": "Did this situation involve people that NAMEVAR felt close to?",
+        "LowEnd": "no, involved no close others",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "yes, involved close others"
+    },
+    {
+        "Dnum": 8,
+        "Dname": "control",
+        "Dquestion": "Were the events in this situation primarily within NAMEVAR's control?",
+        "LowEnd": "no control",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "complete control"
+    },
+    {
+        "Dnum": 9,
+        "Dname": "altering",
+        "Dquestion": "Did NAMEVAR think she had the power to alter the situation in the future?",
+        "LowEnd": "unable to alter",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very able to alter"
+    },
+    {
+        "Dnum": 10,
+        "Dname": "moral",
+        "Dquestion": "Did this situation involve people behaving in a way that would be considered proper or moral?",
+        "LowEnd": "very immoral behavior",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very moral/proper behavior"
+    },
+    {
+        "Dnum": 11,
+        "Dname": "selfesteem",
+        "Dquestion": "Did this situation affect NAMEVAR's self-esteem or opinion of herself?",
+        "LowEnd": "hurt her self-esteem",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "boosted her self-esteem"
+    },
+    {
+        "Dnum": 12,
+        "Dname": "suddenness",
+        "Dquestion": "Did this situation occur suddenly/out of the blue?",
+        "LowEnd": "not at all sudden",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very sudden"
+    },
+    {
+        "Dnum": 13,
+        "Dname": "familiarity",
+        "Dquestion": "Was this situation a familiar event/situation for NAMEVAR?",
+        "LowEnd": "very unfamiliar",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very familiar"
+    },
+    {
+        "Dnum": 14,
+        "Dname": "future",
+        "Dquestion": "Did NAMEVAR's emotion involve an event that would or might occur in the future?",
+        "LowEnd": "no future events",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "yes, involved future events"
+    },
+    {
+        "Dnum": 15,
+        "Dname": "past",
+        "Dquestion": "Did this situation involve events from NAMEVAR's distant past?",
+        "LowEnd": "no, very recent",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "yes, very distant past"
+    },
+    {
+        "Dnum": 16,
+        "Dname": "occurred",
+        "Dquestion": "Was NAMEVAR's emotion based on an something that had already occured?",
+        "LowEnd": "not yet occurred",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "event already occurred"
+    },
+    {
+        "Dnum": 17,
+        "Dname": "certainty",
+        "Dquestion": "Did NAMEVAR feel certain about the situation/outcome?",
+        "LowEnd": "very uncertain",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very certain"
+    },
+    {
+        "Dnum": 18,
+        "Dname": "repetition",
+        "Dquestion": "Did NAMEVAR think the situation was likely to occur again?",
+        "LowEnd": "very unlikely to occur again",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very likely to occur again"
+    },
+    {
+        "Dnum": 19,
+        "Dname": "coping",
+        "Dquestion": "Did NAMEVAR think she could cope with/handle the situation?",
+        "LowEnd": "unable to cope",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very able to cope"
+    },
+    {
+        "Dnum": 20,
+        "Dname": "mental_states",
+        "Dquestion": "Was NAMEVAR's emotion related to the mental states (e.g. beliefs, attitudes) of other people?",
+        "LowEnd": "unrelated to others' mental states",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very related to others' mental states"
+    },
+    {
+        "Dnum": 21,
+        "Dname": "others_knowledge",
+        "Dquestion": "Did people other than NAMEVAR know about the situation that occurred?",
+        "LowEnd": "no one else knew",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "many people knew"
+    },
+    {
+        "Dnum": 22,
+        "Dname": "bodily_disease",
+        "Dquestion": "Did the situation involve events relating to the physical body?",
+        "LowEnd": "unrelated to the body",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very related to the body"
+    },
+    {
+        "Dnum": 23,
+        "Dname": "people",
+        "Dquestion": "Was NAMEVAR interacting with people in this situation?",
+        "LowEnd": "no interaction with people",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "much interaction with people"
+    },
+    {
+        "Dnum": 24,
+        "Dname": "relevance",
+        "Dquestion": "Was there a lot at stake for NAMEVAR in this situation? Did the events have high-relevance for NAMEVAR's life?",
+        "LowEnd": "very little at stake",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very much at stake"
+    },
+    {
+        "Dnum": 25,
+        "Dname": "freedom",
+        "Dquestion": "Was NAMEVAR free to act or behave however she wanted in this situation?",
+        "LowEnd": "not at all free",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very free"
+    },
+    {
+        "Dnum": 26,
+        "Dname": "pressure",
+        "Dquestion": "Was NAMEVAR under a lot of pressure in this situation?",
+        "LowEnd": "very little pressure",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "under much pressure"
+    },
+    {
+        "Dnum": 27,
+        "Dname": "consequences",
+        "Dquestion": "Was NAMEVAR's situation an isolated incident, or did it have long-term consequences?",
+        "LowEnd": "short-term/isolated event",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "long-term/extended consequences"
+    },
+    {
+        "Dnum": 28,
+        "Dname": "danger",
+        "Dquestion": "Was NAMEVAR in physical danger in this situation?",
+        "LowEnd": "very dangerous situation",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very safe situation"
+    },
+    {
+        "Dnum": 29,
+        "Dname": "self_involvement",
+        "Dquestion": "Did the situation describe an outcome directly involving NAMEVAR herself or primarily involving other people?",
+        "LowEnd": "primarily other people",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "directly involving self"
+    },
+    {
+        "Dnum": 30,
+        "Dname": "remember",
+        "Dquestion": "Was the situation something that NAMEVAR is likely to remember in the future?",
+        "LowEnd": "unlikely to remember",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very likely to remember"
+    },
+    {
+        "Dnum": 31,
+        "Dname": "self_consistency",
+        "Dquestion": "Did the situation involve events consistent with NAMEVAR's personality or self-concept?",
+        "LowEnd": "very inconsistent with personality",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very consistent with personality"
+    },
+    {
+        "Dnum": 32,
+        "Dname": "relationship_influence",
+        "Dquestion": "Did this situation affect NAMEVAR's relationships with other people?",
+        "LowEnd": "no effect on relationship",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "large effect on relationships"
+    },
+    {
+        "Dnum": 33,
+        "Dname": "agent_situation",
+        "Dquestion": "Was this event primarily a reflection of NAMEVAR (e.g. her personality, her abilities) or a reflection of the surrounding situation?",
+        "LowEnd": "reflection of her",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "reflection of the situation"
+    },
+    {
+        "Dnum": 34,
+        "Dname": "attention",
+        "Dquestion": "How much of NAMEVAR's attention did this situation occupy?",
+        "LowEnd": "very little attention",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "much of her attention"
+    },
+    {
+        "Dnum": 35,
+        "Dname": "psychological_change",
+        "Dquestion": "Did this situation involve a change in NAMEVAR's psychological state?",
+        "LowEnd": "very little change",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "very dramatic change"
+    },
+    {
+        "Dnum": 36,
+        "Dname": "safety",
+        "Dquestion": "Did this situation involve risks for NAMEVAR or others?",
+        "LowEnd": "no risks",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "extreme risks"
+    },
+    {
+        "Dnum": 37,
+        "Dname": "knowledge_change",
+        "Dquestion": "Did this situation involve a change in NAMEVAR's knowledge or belief about something?",
+        "LowEnd": "no change in knowledge/beliefs",
+        "Middle": "neutral/not applicable",
+        "HighEnd": "large change in knowledge/beliefs"
+    }
+]

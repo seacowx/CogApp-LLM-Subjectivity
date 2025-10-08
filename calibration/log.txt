@@ -1,0 +1,5 @@
+usage: exp.py [-h] --model MODEL
+exp.py: error: the following arguments are required: --model
+slurmstepd: error: *** JOB 21657538 ON erc-hpc-comp190 CANCELLED AT 2024-10-16T09:43:01 ***
+slurmstepd: error: *** JOB 21657538 STEPD TERMINATED ON erc-hpc-comp190 AT 2024-10-16T09:44:01 DUE TO JOB NOT ENDING WITH SIGNALS ***
+slurmstepd: error: Container 28570 in cgroup plugin has 2 processes, giving up after 63 sec

@@ -1,0 +1,23 @@
+{
+    "suddenness": 0,
+    "familiarity": 1,
+    "predict_event": 2,
+    "pleasantness": 3,
+    "unpleasantness": 4,
+    "goal_relevance": 5,
+    "chance_responsblt": 6,
+    "self_responsblt": 7,
+    "other_responsblt": 8,
+    "predict_conseq": 9,
+    "goal_support": 10,
+    "urgency": 11,
+    "self_control": 12,
+    "other_control": 13,
+    "chance_control": 14,
+    "accept_conseq": 15,
+    "standards": 16,
+    "social_norms": 17,
+    "attention": 18,
+    "not_consider": 19,
+    "effort": 20
+}

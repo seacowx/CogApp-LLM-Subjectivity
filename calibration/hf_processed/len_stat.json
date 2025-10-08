@@ -1,0 +1,58 @@
+{
+    "envent_train_unique": {
+        "num_data": 4860,
+        "max_len": 2066,
+        "min_len": 8,
+        "mean_len": 98.9880658436214,
+        "median_len": 62.0,
+        "mode_len": 48
+    },
+    "envent_valid_unique": {
+        "num_data": 540,
+        "max_len": 891,
+        "min_len": 14,
+        "mean_len": 107.10740740740741,
+        "median_len": 66.0,
+        "mode_len": 16
+    },
+    "envent_test_unique": {
+        "num_data": 1200,
+        "max_len": 1059,
+        "min_len": 9,
+        "mean_len": 111.145,
+        "median_len": 68.0,
+        "mode_len": 38
+    },
+    "envent_test_repeated": {
+        "num_data": 1200,
+        "max_len": 1059,
+        "min_len": 9,
+        "mean_len": 111.145,
+        "median_len": 68.0,
+        "mode_len": 38
+    },
+    "fge_test_repeated": {
+        "num_data": 200,
+        "max_len": 379,
+        "min_len": 223,
+        "mean_len": 291.135,
+        "median_len": 290.5,
+        "mode_len": 290
+    },
+    "covidet_test_repeated": {
+        "num_data": 40,
+        "max_len": 2089,
+        "min_len": 255,
+        "mean_len": 727.25,
+        "median_len": 578.0,
+        "mode_len": 314
+    },
+    "covidet_test_unique": {
+        "num_data": 201,
+        "max_len": 2095,
+        "min_len": 255,
+        "mean_len": 855.6019900497513,
+        "median_len": 704,
+        "mode_len": 543
+    }
+}
