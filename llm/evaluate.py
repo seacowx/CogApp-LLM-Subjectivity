@@ -8,28 +8,7 @@ from glob import glob
 import numpy as np
 import scipy.spatial.distance as dist
 from scipy.stats import wasserstein_distance
-from sklearn.metrics import mean_squared_error, mean_absolute_error, root_mean_squared_error
-
-# TODO: allow user to check the Wasserstein distance of each appraisal dimension
-
-# ## metrics from YX
-# ## Clark Distance
-# clark = np.sqrt(
-#     np.sum(np.square(pred_values - label_values) / np.square(pred_values + label_values)) / len(pred_values)
-# )
-
-# # # Canberra Distance
-# canberra = np.sum(
-#     np.abs(pred_values - label_values) / (np.abs(pred_values) + np.abs(label_values))
-# )
-
-# # # Cosine Distance
-# cosine_dist = cosine(
-#     pred_values, label_values
-# )
-
-# # # Intersection Distance
-# intersection = 1 - np.sum(np.minimum(pred_values, label_values)) / np.sum(np.maximum(pred_values, label_values))
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 
 def cache_eval_result(result_dict: dict, result_path_lst: list, model_name: str, data_name: str):
@@ -48,7 +27,6 @@ def cache_eval_result(result_dict: dict, result_path_lst: list, model_name: str,
 
     with open(f"./results/{data_name}_{model_name}{result_postfix}.json", 'w') as f:
         json.dump(cache_result_dict, f, indent=4)
-
 
 
 def evaluate(result_path_lst: list, human_label_lst: list, question_to_name: dict, data_name: str):
@@ -85,12 +63,6 @@ def evaluate(result_path_lst: list, human_label_lst: list, question_to_name: dic
 
         if not isinstance(result_lst[0], dict):
             result_lst = result_lst[0]
-
-        # if len(result_lst) > 1:
-        #     temp_result_lst = deepcopy(result_lst)
-        #     result_lst = []
-        #     for ele in temp_result_lst:
-        #         result_lst.extend(ele)
 
         for result_content in result_lst:
 
@@ -239,18 +211,18 @@ def main():
     args = parse_args()
 
     if args.dataset == 'envent':
-        human_label_lst = json.load(open('../hf_processed/envent_test_repeated_hf_processed.json'))
+        human_label_lst = json.load(open('../data/envent_test_repeated_hf_processed.json'))
         available_dimensions = []
     elif args.dataset == 'fge':
-        human_label_lst = json.load(open('../hf_processed/fge_test_repeated_hf_processed_merged.json'))
+        human_label_lst = json.load(open('../data/fge_test_repeated_hf_processed_merged.json'))
         available_dimensions = yaml.load(
-            open('../hf_processed/fge_merged_dimensions.yaml', 'r'),
+            open('../data/fge_merged_dimensions.yaml', 'r'),
             Loader=yaml.FullLoader,
         )
     elif args.dataset == 'covidet':
-        human_label_lst = json.load(open('../hf_processed/covidet_test_repeated_hf_processed_merged.json'))
+        human_label_lst = json.load(open('../data/covidet_test_repeated_hf_processed_merged.json'))
         available_dimensions = yaml.load(
-            open('../hf_processed/covidet_merged_dimensions.yaml', 'r'),
+            open('../data/covidet_merged_dimensions.yaml', 'r'),
             Loader=yaml.FullLoader,
         )
 
@@ -316,9 +288,6 @@ def main():
             qwen_result_path_lst = [
                 ele for ele in qwen_result_path_lst if '_demo' not in ele
             ]
-
-        # llama_result_path_lst = glob(f'./cache/llama70/temp_2.0/envent/*_parsed.json')
-        # qwen_result_path_lst = glob(f'./cache/qwen72/temp_1.25/envent/*_parsed.json')
 
         evaluate(
             result_path_lst=llama_result_path_lst,

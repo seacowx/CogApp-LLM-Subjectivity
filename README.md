@@ -3,7 +3,7 @@ Official repository for the paper "Modeling Subjectivity in Cognitive Appraisal 
 
 Thank you for your interest in our project. We will upload the data and code for our experiments soon. Stay tuned!
 
-## LLM Experiments
+## LLM Prompting Experiments (Zero-shot prompting from Section 4.2)
 To run the experiments, use the `llm/exp.py` script.
 
 ### Arguments
@@ -19,7 +19,25 @@ To run the experiments, use the `llm/exp.py` script.
 python llm/exp.py --model llama8 --dataset envent --add_demo --add_traits
 ```
 
-## Label Smoothing Baseline
+### Evaluating LLM Peformance
+To evaluate the performance of the LLM, use the `llm/evaluate.py` script.
+
+#### Arguments
+
+*   `--dataset`: The dataset to use. Choose from `envent`, `fge`, and `covidet`. (Default: `envent`)
+*   `--baseline`: The baseline to use. Choose from `random` and `majority`. Leave empty for LLM.
+*   `--custom_fpath`: Custom file path to result files.
+*   `--with_demo`: Evaluate on prompts with demographic information.
+*   `--with_traits`: Evaluate on prompts with personality traits.
+*   `--model_size`: The model size to use. Choose from `small` and `large`. (Default: `small`)
+
+#### Example
+
+```bash
+python llm/evaluate.py --dataset envent --with_demo --with_traits --model_size small
+```
+
+## Label Smoothing Baseline (CASE-LSM from Section 4.1)
 To train the label smoothing baseline model, use the `label_smoothing/train.py` script.
 
 ### Arguments
@@ -37,7 +55,7 @@ To train the label smoothing baseline model, use the `label_smoothing/train.py` 
 python label_smoothing/train.py --model microsoft/deberta-v3-large --modal 1 --with_demo --state_dict_path ./models
 ```
 
-## Calibration Experiments
+## Calibration Experiments (Post-hoc Calibration from Section 4.2)
 To run the calibration experiments, use the `calibration/run.py` script.
 
 ### Arguments
