@@ -5,6 +5,7 @@ Thank you for your interest in our project. We will upload the data and code for
 
 ## Usage
 
+## LLM Baseline 
 To run the experiments, use the `llm/exp.py` script.
 
 ### Arguments
@@ -20,7 +21,8 @@ To run the experiments, use the `llm/exp.py` script.
 python llm/exp.py --model llama8 --dataset envent --add_demo --add_traits
 ```
 
-To train the label smoothing baseline model, use the `label_smoothing_baseline/train.py` script.
+## Label Smoothing 
+To train the label smoothing baseline model, use the `label_smoothing/train.py` script.
 
 ### Arguments
 
@@ -34,5 +36,5 @@ To train the label smoothing baseline model, use the `label_smoothing_baseline/t
 ### Example
 
 ```bash
-python label_smoothing_baseline/train.py --model microsoft/deberta-v3-large --modal 1 --with_demo --state_dict_path ./models
+python label_smoothing/train.py --model microsoft/deberta-v3-large --modal 1 --with_demo --state_dict_path ./models
 ```
