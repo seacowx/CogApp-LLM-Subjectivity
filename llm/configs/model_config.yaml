@@ -1,0 +1,11 @@
+llama8:
+  quantization: False
+
+qwen7:
+  quantization: False
+
+llama70:
+  quantization: True
+
+qwen72:
+  quantization: True

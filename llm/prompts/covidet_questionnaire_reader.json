@@ -1,0 +1,122 @@
+[
+    {
+        "Dnum": 0,
+        "Dname": "self-responsibility",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 1,
+        "Dname": "other-responsibility",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 2,
+        "Dname": "circumstances-responsibility",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 3,
+        "Dname": "problem-focused coping",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 4,
+        "Dname": "goal relevance",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 5,
+        "Dname": "attentional activity",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 6,
+        "Dname": "emotion-focused coping",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 7,
+        "Dname": "self-controllable",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 8,
+        "Dname": "other-controllable",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 9,
+        "Dname": "circumstances-controllable",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 10,
+        "Dname": "predictability",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 11,
+        "Dname": "threat",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 12,
+        "Dname": "pleasantness",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 13,
+        "Dname": "certainty",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 14,
+        "Dname": "goal conduciveness",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 15,
+        "Dname": "fairness",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 16,
+        "Dname": "future expectancy",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 17,
+        "Dname": "consistency with social norms",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 18,
+        "Dname": "loss",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 19,
+        "Dname": "familiarity",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 20,
+        "Dname": "effort",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 21,
+        "Dname": "challenge",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 22,
+        "Dname": "consistency with internal values",
+        "Dquestion": ""
+    },
+    {
+        "Dnum": 23,
+        "Dname": "expectedness",
+        "Dquestion": ""
+    }
+]
