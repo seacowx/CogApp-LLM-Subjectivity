@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CogApp-LLM-Subjectivity"
+version = "1.0.0"
+description = "A project to study the subjectivity of LLMs."
+authors = [
+    {name = "Hainiu Xu", email = "hainiu.xu@kcl.ac.uk"},
+]
+dependencies = [
+    "torch",
+    "numpy",
+    "scipy",
+    "pandas",
+    "tqdm",
+    "PyYAML",
+    "scikit-learn",
+    "openai",
+    "vllm",
+    "backoff",
+    "wandb",
+    "datasets",
+    "transformers",
+]

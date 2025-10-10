@@ -1,6 +1,33 @@
 # CogApp-LLM-Subjectivity
 Official repository for the paper "Modeling Subjectivity in Cognitive Appraisal with Language Models"
 
+## Virtual Environment Setup
+It is recommended to use a virtual environment to manage the dependencies of this project. You can use `uv` to create and manage the virtual environment.
+
+### Installation
+First, install `uv`:
+```bash
+pip install uv
+```
+
+### Create a virtual environment
+To create a virtual environment, run the following command in the root of the project directory:
+```bash
+uv venv
+```
+
+### Activate the virtual environment
+To activate the virtual environment, run the following command:
+```bash
+source .venv/bin/activate
+```
+
+### Install dependencies
+To install the required dependencies, run the following command:
+```bash
+uv pip install .
+```
+
 Thank you for your interest in our project. We will upload the data and code for our experiments soon. Stay tuned!
 
 ## LLM Prompting Experiments (Zero-shot prompting from Section 4.2)
